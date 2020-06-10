@@ -128,3 +128,24 @@ footer p {
   font-size: 14px;
   line-height: 16px;
 }
+
+/*=== ABOUT ===*/
+
+#about-foodfy header h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+#about-foodfy header h2 {
+  margin-bottom: 20px;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+#about-foodfy p {
+  margin-bottom: 30px;
+  text-align: justify;
+  font-size: 18px;
+  line-height: 28px;
+}
