@@ -9,7 +9,7 @@ for (let card of cards) {
 
     modalOverlay.classList.add('active');
 
-    document.querySelector('.modal__image').src = `assets/${cardId}.png`
+    document.querySelector('.modal__image').src = `../assets/${cardId}.png`
     document.querySelector('.modal__description').innerHTML = cardDescription
     document.querySelector('.modal__author').innerHTML = cardAuthor
     
