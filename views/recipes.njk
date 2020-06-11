@@ -9,125 +9,18 @@
     <section id="card">
       <div class="card__featured">
 
-        <div id="burger" class="card__content">
-          <div class="content-image card-image">
-            <img src="../assets/burger.png" alt="x-burger">
+        {% for item in items %}
+        
+          <div id="{{ item.id }}" class="card__content">
+            <div class="content-image card-image">
+              <img src=../assets/{{item.id}}.png alt="x-burger">
+            </div>
+            <div class="content-description">
+              <p class="card__description">{{item.description}}</p>
+              <p class="author">{{item.author}}</p>
+            </div>
           </div>
-          <div class="content-description">
-            <p class="card__description">Triplo bacon burger</p>
-            <p class="author">por Jorge Relato</p>
-          </div>
-        </div>
-
-        <div id="pizza" class="card__content">
-          <div class="content-image card-image">
-            <img src="../assets/pizza.png" alt="x-burger">
-          </div>
-          <div class="content-description">
-            <p class="card__description">Pizza 4 estações</p>
-            <p class="author">por Fabiana Melo</p>
-          </div>
-        </div>
-
-        <div id="espaguete" class="card__content">
-          <div class="content-image card-image">
-            <img src="../assets/espaguete.png" alt="x-burger">
-          </div>
-          <div class="content-description">
-            <p class="card__description">Espaguete de alho</p>
-            <p class="author">por Júlia Kinoto</p>
-          </div>
-        </div>
-
-        <div id="lasanha" class="card__content">
-          <div class="content-image card-image">
-            <img src="../assets/lasanha.png" alt="x-burger">
-          </div>
-          <div class="content-description">
-            <p class="card__description">Lasanha mac n' cheese</p>
-            <p class="author">por Juliano Vieira</p>
-          </div>
-        </div>
-
-        <div id="doce" class="card__content">
-          <div class="content-image card-image">
-            <img src="../assets/doce.png" alt="x-burger">
-          </div>
-          <div class="content-description">
-            <p class="card__description">Docinhos pão-do-céu</p>
-            <p class="author">por Ricardo Golvea</p>
-          </div>
-        </div>
-
-        <div id="asinhas" class="card__content">
-          <div class="content-image card-image">
-            <img src="../assets/asinhas.png" alt="x-burger">
-          </div>
-          <div class="content-description">
-            <p class="card__description">Asinhas de frango ao barbecue</p>
-            <p class="author">por Vania Steroski</p>
-          </div>
-        </div>
-
-        <div id="burger" class="card__content">
-          <div class="content-image card-image">
-            <img src="../assets/burger.png" alt="x-burger">
-          </div>
-          <div class="content-description">
-            <p class="card__description">Triplo bacon burger</p>
-            <p class="author">por Jorge Relato</p>
-          </div>
-        </div>
-
-        <div id="pizza" class="card__content">
-          <div class="content-image card-image">
-            <img src="../assets/pizza.png" alt="x-burger">
-          </div>
-          <div class="content-description">
-            <p class="card__description">Pizza 4 estações</p>
-            <p class="author">por Fabiana Melo</p>
-          </div>
-        </div>
-
-        <div id="espaguete" class="card__content">
-          <div class="content-image card-image">
-            <img src="../assets/espaguete.png" alt="x-burger">
-          </div>
-          <div class="content-description">
-            <p class="card__description">Espaguete de alho</p>
-            <p class="author">por Júlia Kinoto</p>
-          </div>
-        </div>
-
-        <div id="lasanha" class="card__content">
-          <div class="content-image card-image">
-            <img src="../assets/lasanha.png" alt="x-burger">
-          </div>
-          <div class="content-description">
-            <p class="card__description">Lasanha mac n' cheese</p>
-            <p class="author">por Juliano Vieira</p>
-          </div>
-        </div>
-
-        <div id="doce" class="card__content">
-          <div class="content-image card-image">
-            <img src="../assets/doce.png" alt="x-burger">
-          </div>
-          <div class="content-description">
-            <p class="card__description">Docinhos pão-do-céu</p>
-            <p class="author">por Ricardo Golvea</p>
-          </div>
-        </div>
-
-        <div id="asinhas" class="card__content">
-          <div class="content-image card-image">
-            <img src="../assets/asinhas.png" alt="x-burger">
-          </div>
-          <div class="content-description">
-            <p class="card__description">Asinhas de frango ao barbecue</p>
-            <p class="author">por Vania Steroski</p>
-          </div>
-        </div>
+        {% endfor %}
       </div>
     </section>
   </div>
@@ -136,7 +29,7 @@
     <div class="modal">
       <div class="modal__content">
         <div class="content-image">
-          <img class="modal__image" src="" alt="x-burger">
+          <img class="modal__image" src="" alt="">
         </div>
         <div class="content-description">
           <p class="modal__description"></p>

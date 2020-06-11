@@ -20,65 +20,20 @@
     <section id="card">
       <h2>Mais acessadas</h2>
       <div class="card__featured">
+      {% for item in items %}
+      
         <div class="card__content">
           <div class="content-image">
-            <img src="/assets/burger.png" alt="x-burger">
+            <img src="/assets/{{item.id}}.png" alt="{{item.description}}">
           </div>
           <div class="content-description">
-            <p>Triplo bacon burger</p>
-            <p class="author">por Jorge Relato</p>
+            <p>{{item.description}}</p>
+            <p class="author">{{item.author}}</p>
           </div>
         </div>
+        {% endfor %}
 
-        <div class="card__content">
-          <div class="content-image">
-            <img src="/assets/pizza.png" alt="x-burger">
-          </div>
-          <div class="content-description">
-            <p>Pizza 4 estações</p>
-            <p class="author">por Fabiana Melo</p>
-          </div>
-        </div>
-
-        <div class="card__content">
-          <div class="content-image">
-            <img src="/assets/espaguete.png" alt="x-burger">
-          </div>
-          <div class="content-description">
-            <p>Espaguete de alho</p>
-            <p class="author">por Júlia Kinoto</p>
-          </div>
-        </div>
-
-        <div class="card__content">
-          <div class="content-image">
-            <img src="/assets/lasanha.png" alt="x-burger">
-          </div>
-          <div class="content-description">
-            <p>Lasanha mac n' cheese</p>
-            <p class="author">por Juliano Vieira</p>
-          </div>
-        </div>
-
-        <div class="card__content">
-          <div class="content-image">
-            <img src="/assets/doce.png" alt="x-burger">
-          </div>
-          <div class="content-description">
-            <p>Docinhos pão-do-céu</p>
-            <p class="author">por Ricardo Golvea</p>
-          </div>
-        </div>
-
-        <div class="card__content">
-          <div class="content-image">
-            <img src="/assets/asinhas.png" alt="x-burger">
-          </div>
-          <div class="content-description">
-            <p>Asinhas de frango ao barbecue</p>
-            <p class="author">por Vania Steroski</p>
-          </div>
-        </div>
+       
       </div>
     </section>
   </div>
