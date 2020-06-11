@@ -1,5 +1,6 @@
 const express = require('express');
 const nunjucks = require('nunjucks');
+const { response } = require('express');
 
 const server = express();
 
@@ -13,6 +14,10 @@ nunjucks.configure('views', {
 
 server.get('/', function(request, response) {
   return response.render('home')
+})
+
+server.get('/about', function(request, response) {
+  return response.render('about')
 })
 
 server.listen(5000, function() {

@@ -1,94 +1,39 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+{% extends 'layout.njk' %}
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Foodfy</title>
-  <link rel="stylesheet" href="../public/style.css">
-</head>
+{% block header %}
+  <title>Sobre - Foodfy</title>
+{% endblock header %}
 
-<body>
-  <nav>
-    <div class="container">
-      <ul>
-        <li class="nav-item logo">
-          <a href="index.html" class="nav-link">
-            <img src="../assets/logo.png" alt="Logo Foodfy">
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="about.html" class="nav-link">Sobre</a>
-        </li>
-        <li class="nav-item">
-          <a href="recipes.html" class="nav-link">Receitas</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+{% block content %}
 
-  <main id="about-foodfy">
-    <div class="container">
-      <section>
-        <header>
-          <h1>
-            Sobre o Foodfy
-          </h1>
-        </header>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean cursus massa et egestas posuere. Vestibulum
-          mi tellus, lobortis et lectus vitae, finibus fringilla purus. Phasellus porta mi ornare lorem venenatis
-          eleifend. Aenean vitae quam vitae est maximus molestie. Morbi at enim eu libero pretium consequat. Sed eget
-          vestibulum purus. Pellentesque a tincidunt dui. Donec elementum et erat vel commodo. Ut hendrerit ipsum in
-          arcu interdum eleifend. Curabitur sed libero vel dui tincidunt pharetra. Nam id hendrerit nunc. Phasellus sit
-          amet convallis augue. Morbi id tortor lectus. Ut gravida ultrices scelerisque.</p>
+  <section>
+    <header>
+      <h1>
+        Sobre o Foodfy
+      </h1>
+    </header>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean cursus massa et egestas posuere. Vestibulum mi tellus, lobortis et lectus vitae, finibus fringilla purus. Phasellus porta mi ornare lorem venenatis eleifend. Aenean vitae quam vitae est maximus molestie. Morbi at enim eu libero pretium consequat. Sed eget vestibulum purus. Pellentesque a tincidunt dui. Donec elementum et erat vel commodo. Ut hendrerit ipsum in arcu interdum eleifend. Curabitur sed libero vel dui tincidunt pharetra. Nam id hendrerit nunc. Phasellus sit amet convallis augue. Morbi id tortor lectus. Ut gravida ultrices scelerisque.</p>
 
-        <p>Phasellus tristique, leo nec fringilla fringilla, neque neque pretium neque, bibendum finibus ante dui id
-          eros. Pellentesque iaculis ultrices accumsan. Aliquam sollicitudin augue id massa tincidunt dapibus. Maecenas
-          at porta elit, eu maximus justo. Sed molestie nec nisl eu consequat. Donec aliquam tellus at magna sagittis
-          tristique. Mauris ipsum nunc, scelerisque facilisis finibus sed, pellentesque nec ligula. Suspendisse
-          sollicitudin mi eu risus semper, in laoreet est elementum.</p>
-      </section>
+    <p>Phasellus tristique, leo nec fringilla fringilla, neque neque pretium neque, bibendum finibus ante dui id eros. Pellentesque iaculis ultrices accumsan. Aliquam sollicitudin augue id massa tincidunt dapibus. Maecenas at porta elit, eu maximus justo. Sed molestie nec nisl eu consequat. Donec aliquam tellus at magna sagittis tristique. Mauris ipsum nunc, scelerisque facilisis finibus sed, pellentesque nec ligula. Suspendisse sollicitudin mi eu risus semper, in laoreet est elementum.</p>
+  </section>
 
-      <section>
-        <header>
-          <h2>
-            Como tudo começou...
-          </h2>
-        </header>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean cursus massa et egestas posuere. Vestibulum
-          mi tellus, lobortis et lectus vitae, finibus fringilla purus. Phasellus porta mi ornare lorem venenatis
-          eleifend. Aenean vitae quam vitae est maximus molestie. Morbi at enim eu libero pretium consequat. Sed eget
-          vestibulum purus. Pellentesque a tincidunt dui. Donec elementum et erat vel commodo. Ut hendrerit ipsum in
-          arcu interdum eleifend. Curabitur sed libero vel dui tincidunt pharetra. Nam id hendrerit nunc. Phasellus sit
-          amet convallis augue. Morbi id tortor lectus. Ut gravida ultrices scelerisque.</p>
+  <section>
+    <header>
+      <h2>
+        Como tudo começou...
+      </h2>
+    </header>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean cursus massa et egestas posuere. Vestibulum mi tellus, lobortis et lectus vitae, finibus fringilla purus. Phasellus porta mi ornare lorem venenatis eleifend. Aenean vitae quam vitae est maximus molestie. Morbi at enim eu libero pretium consequat. Sed eget vestibulum purus. Pellentesque a tincidunt dui. Donec elementum et erat vel commodo. Ut hendrerit ipsum in arcu interdum eleifend. Curabitur sed libero vel dui tincidunt pharetra. Nam id hendrerit nunc. Phasellus sit amet convallis augue. Morbi id tortor lectus. Ut gravida ultrices scelerisque.</p>
 
-        <p>Phasellus tristique, leo nec fringilla fringilla, neque neque pretium neque, bibendum finibus ante dui id
-          eros. Pellentesque iaculis ultrices accumsan. Aliquam sollicitudin augue id massa tincidunt dapibus. Maecenas
-          at porta elit, eu maximus justo. Sed molestie nec nisl eu consequat. Donec aliquam tellus at magna sagittis
-          tristique. Mauris ipsum nunc, scelerisque facilisis finibus sed, pellentesque nec ligula. Suspendisse
-          sollicitudin mi eu risus semper, in laoreet est elementum.</p>
-      </section>
-      <section>
-        <header>
-          <h1>
-            Nossas receitas
-          </h1>
-        </header>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean cursus massa et egestas posuere. Vestibulum
-          mi tellus, lobortis et lectus vitae, finibus fringilla purus. Phasellus porta mi ornare lorem venenatis
-          eleifend. Aenean vitae quam vitae est maximus molestie. Morbi at enim eu libero pretium consequat. Sed eget
-          vestibulum purus. Pellentesque a tincidunt dui. Donec elementum et erat vel commodo. Ut hendrerit ipsum in
-          arcu interdum eleifend. Curabitur sed libero vel dui tincidunt pharetra. Nam id hendrerit nunc. Phasellus sit
-          amet convallis augue. Morbi id tortor lectus. Ut gravida ultrices scelerisque.</p>
-      </section>
-    </div>
-  </main>
-
-
-
-  <footer>
-    <p>Todos os direitos reservados, receitas Foodfy.</p>
-  </footer>
-</body>
-
-</html>
+    <p>Phasellus tristique, leo nec fringilla fringilla, neque neque pretium neque, bibendum finibus ante dui id eros. Pellentesque iaculis ultrices accumsan. Aliquam sollicitudin augue id massa tincidunt dapibus. Maecenas at porta elit, eu maximus justo. Sed molestie nec nisl eu consequat. Donec aliquam tellus at magna sagittis tristique. Mauris ipsum nunc, scelerisque facilisis finibus sed, pellentesque nec ligula. Suspendisse sollicitudin mi eu risus semper, in laoreet est elementum.</p>
+  </section>
+  <section>
+    <header>
+      <h1>
+        Nossas receitas
+      </h1>
+    </header>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean cursus massa et egestas posuere. Vestibulum mi tellus, lobortis et lectus vitae, finibus fringilla purus. Phasellus porta mi ornare lorem venenatis eleifend. Aenean vitae quam vitae est maximus molestie. Morbi at enim eu libero pretium consequat. Sed eget vestibulum purus. Pellentesque a tincidunt dui. Donec elementum et erat vel commodo. Ut hendrerit ipsum in arcu interdum eleifend. Curabitur sed libero vel dui tincidunt pharetra. Nam id hendrerit nunc. Phasellus sit amet convallis augue. Morbi id tortor lectus. Ut gravida ultrices scelerisque.</p>
+  </section>
+  
+{% endblock content %}
