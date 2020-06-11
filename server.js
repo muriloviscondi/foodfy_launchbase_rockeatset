@@ -20,6 +20,10 @@ server.get('/about', function(request, response) {
   return response.render('about')
 })
 
+server.get('/recipes', function(request, response) {
+  return response.render('recipes')
+})
+
 server.listen(5000, function() {
   console.log("Server is running!")
 })
