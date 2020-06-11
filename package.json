@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/muriloviscondi/foodfy_launchbase_rockeatset/issues"
   },
-  "homepage": "https://github.com/muriloviscondi/foodfy_launchbase_rockeatset#readme"
+  "homepage": "https://github.com/muriloviscondi/foodfy_launchbase_rockeatset#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
