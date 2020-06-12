@@ -211,3 +211,8 @@ footer p {
 .ingredients ul {
   list-style-position: inside;
 }
+
+/*=== HIDDEN.HIDDEN-ACTIVE ===*/
+.div-hidden.hidden-active {
+  display: none;
+}
