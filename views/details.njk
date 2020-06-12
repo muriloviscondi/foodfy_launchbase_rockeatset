@@ -1,42 +1,22 @@
 {% extends 'layout.njk' %}
 
 {% block header %}
-  <title>Receitas - Foodfy</title>
+  <title>Details - Foodfy</title>
 {% endblock header %}
 
 {% block content %}
   <div class="container">
-    <section id="card">
-      <div class="card__featured">
-
-        {% for item in items %}
-
-          <div id="{{ item.id }}" class="card__content">
-            <div class="content-image card-image">
-              <img src="{{item.image}}" alt="Foto de {{item.description}}">
-            </div>
-            <div class="content-description">
-              <p class="card__description">{{item.description}}</p>
-              <p class="author">{{item.author}}</p>
-            </div>
-          </div>
-        {% endfor %}
+    <div class="detail__content">
+      <div class="content-image">
+        <img class="detail__image" src="{{item.image}}" alt="">
       </div>
-    </section>
-  </div>
-
-  <div class="modal-overlay">
-    <div class="modal">
-      <div class="modal__content">
-        <div class="content-image">
-          <img class="modal__image" src="" alt="">
-        </div>
-        <div class="content-description">
-          <p class="modal__description"></p>
-          <p class="modal__author"></p>
-        </div>
-        <div class="ingredients">
-          <h3>ingredientes</h3>
+      <div class="content-description">
+        <p class="detail__description">{{item.description}}</p>
+        <p class="detail__author">{{item.author}}</p>
+      </div>
+      <div class="ingredients">
+        <h3>Ingredientes<span class="hidden">ESCONDER</span></h3>
+        <div class="div-hidden">
           <ul>
             <li>200g de carne de boi moída (maminha, fraldinha, miolo de alcatra e coxão duro em partes iguais)</li>
             <li>1 colher (chá) de cebola picada finamente</li>
@@ -48,24 +28,22 @@
             <li>Pão de hambúrguer de sua preferência</li>
           </ul>
         </div>
+      </div>
 
-        <div class="directions">
-          <h3>Modo de Preparo</h3>
+      <div class="directions">
+        <h3>Modo de Preparo<span class="hidden">ESCONDER</span></h3>
+        <div class="div-hidden">
           <p>Misture as carnes moídas e junte a cebola e o alho. Molde com as mãos para formar um hambúrguer com aproximadamente 2cm de espessura. Tempere com sal e pimenta somente quando for grelhá-lo. Coloque o hambúrguer para grelhar de preferência em uma grelha estriada ou char-broiler bem quente, por mais ou menos 6 minutos de cada lado, até chegar ao ponto. Quando virar o hambúrguer, coloque o queijo por cima e tampe com abafador para derretê-lo. Separadamente, frite o bacon em uma frigideira até ficar crocante. Monte o hambúrguer no pão, coloque o bacon por cima e finalize com as folhas de mostarda.</p>
         </div>
+      </div>
 
-        <div class="directions">
+      <div class="informations">
+        <h3>Informações adicionais<span class="hidden">ESCONDER</span></h3>
+        <div class="div-hidden">
           <p>Preaqueça a chapa, frigideira ou grelha por 10 minutos antes de levar os hambúrgueres. Adicione um pouquinho de óleo ou manteiga e não amasse os hambúrgueres!</p>
           <p>Você sabia que a receita que precede o hambúrguer surgiu no século XII na Europa? A ideia de moer a carne chegou em Hamburgo no século XVII, onde um açogueiro resolveu também temperá-la. Assim, a receita foi disseminada nos Estados Unidos por alemães da região. Lá surgiu a ideia de colocar o hambúrguer no meio do pão e adicionar outros ingredientes, como queijo, tomates e alface</p>
-        </div>
-
-        <div class="close">
-          <p>Fechar</p>
         </div>
       </div>
     </div>
   </div>
-
-  <script src="/script.js"></script>
-
 {% endblock content %}
