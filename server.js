@@ -41,7 +41,7 @@ server.get('/details', function(request, response) {
   const id = request.query.id;
 
   const recipe = recipes.find(function(recipe) {
-    return recipe.id
+    return recipe.id == id
   })
 
   if (!recipe) {

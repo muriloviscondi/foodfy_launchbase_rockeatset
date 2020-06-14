@@ -5,12 +5,12 @@ module.exports = [
     description: "Triplo bacon burger",
     author: "por Jorge Relato",
     ingredients: [
-      '3 kg de carne moída (escolha uma carne magra e macia)',
-      '300 g de bacon moído',
-      '1 ovo',
-      '3 colheres (sopa) de farinha de trigo',
-      '3 colheres (sopa) de tempero caseiro: feito com alho, sal, cebola, pimenta e cheiro verde processados no liquidificador',
-      '30 ml de água gelada'
+      '<li>3 kg de carne moída (escolha uma carne magra e macia)</li>',
+      '<li>300 g de bacon moído</li>',
+      '<li>1 ovo</li>',
+      '<li>3 colheres (sopa) de farinha de trigo</li>',
+      '<li>3 colheres (sopa) de tempero caseiro: feito com alho, sal, cebola, pimenta e cheiro</li> verde processados no liquidificador',
+      '<li>30 ml de água gelada</li>'
     ],
     preparation: [
       'Misture todos os ingredientes muito bem e amasse para que fique tudo muito bem misturado.',
@@ -29,18 +29,18 @@ module.exports = [
     description: "Pizza 4 estações",
     author: "por Fabiana Melo",
     ingredients: [
-      '1 xícara (chá) de leite',
-      '1 ovo',
-      '1 colher (chá) de sal',
-      '1 colher (chá) de açúcar',
-      '1 colher (sopa) de margarina',
-      '1 e 1/2 xícara (chá) de farinha de trigo',
-      '1 colher (sobremesa) de fermento em pó',
-      '1/2 lata de molho de tomate',
-      '250 g de mussarela ralada grossa',
-      '2 tomates fatiados',
-      'azeitona picada',
-      'orégano a gosto'
+      '<li>1 xícara (chá) de leite</li>',
+      '<li>1 ovo</li>',
+      '<li>1 colher (chá) de sal</li>',
+      '<li>1 colher (chá) de açúcar</li>',
+      '<li>1 colher (sopa) de margarina</li>',
+      '<li>1 e 1/2 xícara (chá) de farinha de trigo</li>',
+      '<li>1 colher (sobremesa) de fermento em pó</li>',
+      '<li>1/2 lata de molho de tomate</li>',
+      '<li>250 g de mussarela ralada grossa</li>',
+      '<li>2 tomates fatiados</li>',
+      '<li>azeitona picada</li>',
+      '<li>orégano a gosto</li>'
     ],
     preparation: [
       'No liquidificador bata o leite, o ovo, o sal, o açúcar, a margarina, a farinha de trigo e o fermento em pó até que tudo esteja encorporado.',
@@ -57,15 +57,15 @@ module.exports = [
     description: "Espaguete de alho",
     author: "por Júlia Kinoto",
     ingredients: [
-      '1 pacote de macarrão 500 g (tipo do macarrão a gosto)',
-      '1 saquinho de alho granulado',
-      '1/2 tablete de manteiga (não use margarina)',
-      '1 colher (sopa) de azeite extra virgem',
-      'ervas (manjericão, orégano, salsa, cebolinha, tomilho, a gosto)',
-      'sal',
-      '1 dente de alho',
-      'gengibre em pó a gosto',
-      '1 folha de louro'
+      '<li>1 pacote de macarrão 500 g (tipo do macarrão a gosto)</li>',
+      '<li>1 saquinho de alho granulado</li>',
+      '<li>1/2 tablete de manteiga (não use margarina)</li>',
+      '<li>1 colher (sopa) de azeite extra virgem</li>',
+      '<li>ervas (manjericão, orégano, salsa, cebolinha, tomilho, a gosto)</li>',
+      '<li>sal</li>',
+      '<li>1 dente de alho</li>',
+      '<li>gengibre em pó a gosto</li>',
+      '<li>1 folha de louro</li>'
     ],
     preparation: [
       'Quando faltar mais ou menos 5 minutos para ficar no ponto de escorrer o macarrão, comece o preparo da receita.',
@@ -82,11 +82,11 @@ module.exports = [
     description: "Lasanha mac n' cheese",
     author: "por Juliano Vieira",
     ingredients: [
-      'massa pronta de lasanha',
-      '400 g de presunto',
-      '400 g de mussarela ralada',
-      '2 copos de requeijão',
-      '150 g de mussarela para gratinar'
+      '<li>massa pronta de lasanha</li>',
+      '<li>400 g de presunto</li>',
+      '<li>400 g de mussarela ralada</li>',
+      '<li>2 copos de requeijão</li>',
+      '<li>150 g de mussarela para gratinar</li>'
     ],
     preparation: [
       'Em uma panela, coloque a manteiga para derreter.',
@@ -103,14 +103,14 @@ module.exports = [
     description: "Docinhos pão-do-céu",
     author: "por Ricardo Golvea",
     ingredients: [
-      '1 kg de batata - doce',
-      '100 g de manteiga',
-      '3 ovos',
-      '1 pacote de coco seco ralado (100 g)',
-      '3 colheres (sopa) de açúcar 1 lata de Leite Moça',
-      '1 colher (sopa) de fermento em pó',
-      'manteiga para untar',
-      'açúcar de confeiteiro'
+      '<li>1 kg de batata - doce</li>',
+      '<li>100 g de manteiga</li>',
+      '<li>3 ovos</li>',
+      '<li>1 pacote de coco seco ralado (100 g)</li>',
+      '<li>3 colheres (sopa) de açúcar 1 lata de Leite Moça</li>',
+      '<li>1 colher (sopa) de fermento em pó</li>',
+      '<li>manteiga para untar</li>',
+      '<li>açúcar de confeiteiro</li>'
     ],
     preparation: [
       'Cozinhe a batata-doce numa panela de pressão, com meio litro de água, por cerca de 20 minutos. Descasque e passe pelo espremedor, ainda quente.',
@@ -126,10 +126,10 @@ module.exports = [
     description: "Asinhas de frango ao barbecue",
     author: "por Vania Steroski",
     ingredients: [
-      '12 encontros de asinha de galinha, temperados a gosto',
-      '2 colheres de sopa de farinha de trigo',
-      '1/2 xícara (chá) de óleo',
-      '1 xícara de molho barbecue'
+      '<li>12 encontros de asinha de galinha, temperados a gosto</li>',
+      '<li>2 colheres de sopa de farinha de trigo</li>',
+      '<li>1/2 xícara (chá) de óleo</li>',
+      '<li>1 xícara de molho barbecue</li>'
     ],
     preparation: [
       'Em uma tigela coloque o encontro de asinha de galinha e polvilhe a farinha de trigo e misture com as mãos.',

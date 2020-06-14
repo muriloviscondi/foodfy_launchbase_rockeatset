@@ -7,7 +7,7 @@ for (let card of cards) {
     const cardId = card.getAttribute('id');
     
     window.location.href = `/details?id=${cardId}`
-    
+
   })
 }
 
