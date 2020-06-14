@@ -129,6 +129,13 @@ footer p {
   line-height: 16px;
 }
 
+/*=== RECIPES ===*/
+
+.content-image.card-image:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
 /*=== ABOUT ===*/
 
 #about-foodfy header h1 {
